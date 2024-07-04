@@ -19,4 +19,9 @@ def heads_or_tails_game():
 
     print(f"Heads: {heads_count}, Tails: {tails_count}")
 
+    if heads_count > tails_count:
+        print(f"{name} won!")
+    else:
+        print(f"{name} lost!")
+
 heads_or_tails_game()
